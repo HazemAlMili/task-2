@@ -1,0 +1,283 @@
+:root {
+    --resume-color: #eea302;
+    --project-color: #ff3b25;
+    --contect-color: #80d8da;
+}
+
+
+body {
+    background-color: #f6f6f6;
+}
+
+/* Start Header */
+
+
+
+.header {
+    margin-bottom: 50px;
+
+}
+
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 25px;
+
+}
+
+.header .logo span {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    border-radius: 50%;
+    background-color: var(--resume-color);
+}
+
+.header .logo a {
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
+.header .logo a p {
+    display: inline;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.header .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 25px;
+    transition: 0.3s ease;
+
+}
+
+.header .links a {
+    margin-left: 10px;
+    color: black;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.header .links a:first-child {
+    border-right: 1px solid black;
+    padding-right: 7px;
+}
+
+.header .links a:nth-child(2) {
+    border-right: 1px solid black;
+    padding-right: 7px;
+    padding-left: 0;
+}
+
+.header .links a:hover {
+    color: #926402;
+}
+
+
+
+/* End Header */
+
+
+/* Start About */
+.about {
+    margin-top: 100px;
+    margin-left: 70px;
+    position: relative;
+}
+
+.about .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 120PX;
+    width: 75%;
+    padding-bottom: 20px;
+
+}
+
+.about .container img {
+    width: 400px;
+    border-radius: 50%;
+    margin: 30px 0px 30px 100px;
+}
+
+.about .container .text {
+    padding: 0px;
+    margin-left: 20px;
+    position: relative;
+    top: -65px;
+}
+
+.about .container .text h1 {
+    font-size: 60px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.about .container .text h3 {
+    padding-top: 0;
+    font-size: 20px;
+    margin-bottom: 3px;
+
+}
+
+.about .container .text p {
+    font-size: 15px;
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 300;
+    line-height: 1.5;
+    width: 300px;
+    position: relative;
+    top: 5px;
+}
+
+.about .container .pages {
+    position: relative;
+    top: 120px;
+    left: -360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.about .container .pages a {
+    padding: 10px 30px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.about .container .pages a:first-child {
+    background-color: var(--resume-color);
+}
+
+.about .container .pages a:nth-child(2) {
+    background-color: var(--project-color);
+}
+
+.about .container .pages a:last-child {
+    background-color: var(--contect-color);
+}
+
+.about .container .pages a:hover {
+    background-color: white;
+}
+
+/* End About */
+
+
+
+
+
+/* Start Footer */
+.footer {
+    margin-left: -50px;
+    padding-top: 35px;
+    position: relative;
+}
+
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 70px;
+}
+
+.footer::before {
+    content: '';
+    background-color: #a4a1a1;
+    display: block;
+    height: 1px;
+    position: relative;
+    top: 0px;
+    left: 50px;
+    width: calc(96%);
+}
+
+.footer .container .phone h4 {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.footer .container .phone p {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.footer .container .email h4 {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.footer .container .email a {
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 0;
+    color: black;
+}
+
+.footer .container .follow h4 {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.footer .container .follow i {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer .container .follow i:first-of-type {
+    margin-right: 10px;
+}
+
+.footer .container .follow i:first-of-type:hover {
+    color: #01a5e6;
+}
+
+.footer .container .follow i:last-of-type:hover {
+    color: #0a66c2;
+}
+
+.footer .container .powered {
+    font-size: 11px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.footer .container .powered a {
+    color: black;
+    text-decoration: underline;
+}
+
+/* End Footer */

@@ -1,0 +1,191 @@
+:root {
+    --resume-color: #eea302;
+    --project-color: #ff3b25;
+    --contect-color: #80d8da;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+
+
+.resume {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 50px 100px;
+}
+
+.resume h1 {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 0;
+}
+
+.resume .container {
+    margin: 20px;
+    width: 1033px;
+}
+
+.resume .container h2 {
+    width: fit-content;
+    position: relative;
+    top: 50%;
+    transform: translateY(100px);
+}
+
+/* Start Section 1 */
+
+.resume .container .work-exp {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px 20px;
+    width: 200px;
+    position: relative;
+    left: 54%;
+}
+
+.resume .container .work-exp::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: -42rem;
+    background-color: #a4a1a1;
+    width: calc(100% + 1000px);
+    height: 0.5px;
+    margin-top: 20px;
+}
+
+.resume .container .work-exp span:first-of-type {
+    position: relative;
+    left: -45%;
+    top: 15px;
+    font-size: 12px;
+    font-weight: 300;
+    width: fit-content;
+    margin-left: -10px;
+}
+
+.resume .container .work-exp span:nth-of-type(2) {
+    position: absolute;
+    left: -40%;
+    top: 36%;
+    font-size: 12px;
+    font-weight: 300;
+    width: fit-content;
+    margin-left: -10px;
+}
+
+.resume .container .work-exp span:last-of-type {
+    position: absolute;
+    left: -40%;
+    top: 68.5%;
+    font-size: 12px;
+    font-weight: 300;
+    width: fit-content;
+    margin-left: -10px;
+}
+
+.resume .container .work-exp h4 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 17px;
+}
+
+.resume .container .work-exp p {
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    width: 300px;
+    line-height: 2;
+}
+
+/* End Section 1 */
+
+/* Start Section 2 */
+
+
+.resume .container .edu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px 20px;
+    width: 200px;
+    position: relative;
+    left: 54%;
+}
+
+
+.resume .container .edu::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: -42rem;
+    background-color: #a4a1a1;
+    width: calc(100% + 1000px);
+    height: 0.5px;
+    margin-top: 20px
+}
+
+
+.resume .container .edu span:first-of-type {
+    position: relative;
+    left: -45%;
+    top: 15px;
+    font-size: 12px;
+    font-weight: 300;
+    width: fit-content;
+    margin-left: -10px;
+}
+
+.resume .container .edu span:last-of-type {
+    position: absolute;
+    left: -40%;
+    top: 52.5%;
+    font-size: 12px;
+    font-weight: 300;
+    width: fit-content;
+    margin-left: -10px;
+}
+
+.resume .container .edu h4 {
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0;
+
+}
+
+.resume .container .edu p {
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    width: 300px;
+    line-height: 2;
+}
+
+/* End Section 2 */
+
+/* start Section 3 */
+
+.resume .container .skills {
+    margin-bottom: 0;
+}
+
+.resume .container .skills ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin:0;
+    width: 400px;
+    position: relative;
+    left: 54%;
+}
+
+.resume .container .skills ul li {
+    line-height: 2;
+}
+
+
+/* End Section 3 */
